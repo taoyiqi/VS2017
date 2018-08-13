@@ -148,9 +148,11 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MeScrollController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Book.cs" />
     <Compile Include="Models\IocContainer.cs" />
     <Compile Include="Models\IocDomain.cs" />
     <Compile Include="Models\IocService.cs" />
@@ -162,15 +164,55 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\mescroll.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Img\mescroll-totop.png" />
+    <Content Include="Img\res\img\mescroll-empty.png" />
+    <Content Include="Img\res\img\mescroll-totop.png" />
+    <Content Include="Img\res\img\pd1.jpg" />
+    <Content Include="Img\res\img\pd10.jpg" />
+    <Content Include="Img\res\img\pd11.jpg" />
+    <Content Include="Img\res\img\pd12.jpg" />
+    <Content Include="Img\res\img\pd13.jpg" />
+    <Content Include="Img\res\img\pd14.jpg" />
+    <Content Include="Img\res\img\pd15.jpg" />
+    <Content Include="Img\res\img\pd16.jpg" />
+    <Content Include="Img\res\img\pd17.jpg" />
+    <Content Include="Img\res\img\pd18.jpg" />
+    <Content Include="Img\res\img\pd19.jpg" />
+    <Content Include="Img\res\img\pd2.jpg" />
+    <Content Include="Img\res\img\pd20.jpg" />
+    <Content Include="Img\res\img\pd21.jpg" />
+    <Content Include="Img\res\img\pd22.jpg" />
+    <Content Include="Img\res\img\pd23.jpg" />
+    <Content Include="Img\res\img\pd24.jpg" />
+    <Content Include="Img\res\img\pd25.jpg" />
+    <Content Include="Img\res\img\pd26.jpg" />
+    <Content Include="Img\res\img\pd27.jpg" />
+    <Content Include="Img\res\img\pd28.jpg" />
+    <Content Include="Img\res\img\pd3.jpg" />
+    <Content Include="Img\res\img\pd4.jpg" />
+    <Content Include="Img\res\img\pd5.jpg" />
+    <Content Include="Img\res\img\pd6.jpg" />
+    <Content Include="Img\res\img\pd7.jpg" />
+    <Content Include="Img\res\img\pd8.jpg" />
+    <Content Include="Img\res\img\pd9.jpg" />
+    <Content Include="Img\res\img\swiper.jpg" />
+    <Content Include="Img\res\pay-wx.jpg" />
+    <Content Include="Img\res\pay-zfb.jpg" />
+    <Content Include="Img\res\pdlist1.js" />
+    <Content Include="Img\res\pdlist2.js" />
+    <Content Include="Img\res\vue.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Img\res\pdlist1.json" />
+    <Content Include="Img\res\pdlist2.json" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
@@ -181,6 +223,7 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\mescroll.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -197,6 +240,8 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\IocTest.cshtml" />
+    <Content Include="Views\MeScroll\Index.cshtml" />
+    <Content Include="Views\MeScroll\Tabs.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
